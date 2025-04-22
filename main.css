@@ -1,0 +1,99 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #1F2937;
+     color: #D5D4D8;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+   }
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+     margin-bottom: 20px;
+}
+span{
+    color: #4ADF86;
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #D5D4D8;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+ }
+.btn-text {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #10B981;
+    border: 5px solid #10B981;
+    margin-bottom: 35px;
+    font-weight: 600;
+    user-select: none;
+ }
+ hr.solid {
+    border-top: 1px solid #2F3E53;
+  }
+
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-seperator {
+    width: 10%;
+}
+.pass-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273549;
+    padding: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-text:hover {
+    cursor: pointer;
+  }
+
+ .pass-text {
+    font-size: 1.2rem;
+    color: #55F991;
+    text-align: center;
+    font-weight: 500;
+ }
